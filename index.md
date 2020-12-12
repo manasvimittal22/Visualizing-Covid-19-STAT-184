@@ -5,7 +5,6 @@ You can use the [editor on GitHub](https://github.com/manasvimittal22/Visualizin
 ```markdown
 This is the page for final project of Stat 184. This page is made by Manasvi Mittal.
 The topic for my final project is Vizualizing COVID - 19 data.
-The link for the repo is: https://github.com/manasvimittal22/Visualizing-Covid-19-STAT-184
-
-[https://github.com/manasvimittal22/Visualizing-Covid-19-STAT-184]( https://github.com/manasvimittal22/Visualizing-Covid-19-STAT-184)
+The link for the repo is
+[Link]( https://github.com/manasvimittal22/Visualizing-Covid-19-STAT-184)
 ```
