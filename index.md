@@ -7,5 +7,5 @@ This is the page for final project of Stat 184. This page is made by Manasvi Mit
 The topic for my final project is Vizualizing COVID - 19 data.
 The link for the repo is: https://github.com/manasvimittal22/Visualizing-Covid-19-STAT-184
 
-[Link]( https://github.com/manasvimittal22/Visualizing-Covid-19-STAT-184)
+[https://github.com/manasvimittal22/Visualizing-Covid-19-STAT-184]( https://github.com/manasvimittal22/Visualizing-Covid-19-STAT-184)
 ```
