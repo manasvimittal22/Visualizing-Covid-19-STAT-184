@@ -15,6 +15,10 @@ library(mosaic)
 library(tidyverse)
 library(tidyr)
 ```
+## Github Links
+### Link for github repo: https://github.com/manasvimittal22/Visualizing-Covid-19-STAT-184
+### Link for github.io: https://manasvimittal22.github.io/Visualizing-Covid-19-STAT-184/
+
 
 ## 1.From Epidemic to Pandemic
 ### COVID-19 was first identified in Wuhan, China, in Decemeber 2019. On 12 January 2020, Chinese authorities shared the sequence of a novel coronavirus termed severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) isolated from some clustered cases.

@@ -1,0 +1,70 @@
+---
+title: "R Notebook"
+Name: "Manasvi Mittal"
+output: html_notebook
+Date: "11/15/2020"
+---
+
+###Guiding Question (i.e., Research Question): Make a clear statement of a single guiding/research question that will drive your analysis.  It should be phrased as a question that you will try to investigate (i.e., it should have a question mark)
+
+What effect did Covid-19 have on china and the world?
+
+###Become acquainted with your data sources:
+##Where did you find them?
+
+I got the data from a github repository of a person. 
+
+##Who collected/maintains them?
+
+Johns Hopkins University Center for Systems Science and Engineering created a publicly available data repository to consolidate this data from sources like the WHO, the Centers for Disease Control and Prevention (CDC), and the Ministry of Health from multiple countries.
+
+##When & Why were they originally collected?
+
+They were originally collected in december 2019, and are updated regularly. They were collected to find the trend in Covid-19 to find a solution to this pandemic. 
+
+##What does a case represent in each data source, and how many total cases are available?
+
+A single case represents: "date","province","country","lat","long","type","cases", "deaths" etc. 
+
+##What are some of the variables that you plan to use
+
+I plan on using "date" and "num_cases".
+
+##The R Notebook should include R code chunks & output as well as narrative (bullet list is fine at this stage) as you answer these questions
+
+There will be ggplots of the data. Trend lines will also be there for the cases of china. This will result in graph line plots of the data. 
+
+###Explore intuition related to the research question
+
+I expect to see a rise in cases for almost all companies. Europe, US and other countries had a rise in covid-19 cases and thus wil show a trend line with a positive slope. Some countires later onmight show a decline in cases. 
+
+##Create some informative plots and summary statistics 
+
+```{r}
+library(readr)
+library(ggplot2)
+library(dplyr)
+
+confirmed_cases_worldwide <- read_csv('WHO-COVID-19-global-data.csv')
+
+confirmed_cases_worldwide
+
+
+cols(
+  date = col_date(format = ""),
+  cum_cases = col_double()
+)
+```
+##Describe preliminary observations and intuition about the research question
+
+There are multiple cases and shows a variety of variables. Initially there are very few cases, but they rise later. 
+
+###TWO Data Sources (at least)
+##Primary data:  This is the main data source to be used in your investigation and it MUST NOT be loaded directly from an R package. You should have many cases (e.g., at least hundreds--preferably many thousands), many variables including a mixture of both categorical & quantitative variables.  
+
+The dataset is imported into the rstudio as WHO-COVID-19-global-data.csv
+
+##Other data sources: No problem for these to come from an R package--for example, the ZipGeography or ZipDemography data (from DataComputing package) might be useful when joined with primary sources as you investigate some phenomenon in the US. 
+
+Another for a backup is confirmed_cases_worldwide.csv
+
